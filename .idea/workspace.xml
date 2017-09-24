@@ -2,32 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708a4e29-def1-418e-9142-cd3dc2e35d6a" name="Default" comment="dataTable">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/button.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/layout.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/message.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/panel.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/promotion.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/promotion/button.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/subcopy.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/table.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/themes/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/button.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/layout.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/message.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/panel.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/promotion.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/promotion/button.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/subcopy.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/markdown/table.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/bootstrap-4.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-default.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/CHANGELOG.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/CHANGELOG.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.md" />
@@ -46,28 +20,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/CHANGELOG.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/CHANGELOG.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/webmozart/assert/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/CONDUCT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/UPGRADE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Contracts/DataTableEngineContract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Datatables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/DatatablesServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Engines/BaseEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Engines/CollectionEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Engines/EloquentEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Engines/QueryBuilderEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Facades/Datatables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Processors/DataProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Processors/RowProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/Transformers/DataTransformer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/config/datatables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle/src/fallback.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/myclabs/deep-copy/doc/clone.png" afterPath="$PROJECT_DIR$/vendor/myclabs/deep-copy/doc/clone.png" />
@@ -120,7 +72,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.mo" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/arrow.gif" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/arrow.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha/.gitignore" afterPath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha/README.md" afterPath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha/README.md" />
@@ -5984,7 +5935,7 @@
       <workItem from="1506162937367" duration="1131000" />
       <workItem from="1506164417962" duration="8877000" />
       <workItem from="1506193278849" duration="155000" />
-      <workItem from="1506193593778" duration="16610000" />
+      <workItem from="1506193593778" duration="16675000" />
     </task>
     <task id="LOCAL-00001" summary="form">
       <created>1506187023972</created>
@@ -6084,11 +6035,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506240392741</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dataTable">
+      <created>1506240454406</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1506240454406</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28858000" />
+    <option name="totallyTimeSpent" value="28923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
