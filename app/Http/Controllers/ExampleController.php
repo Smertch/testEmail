@@ -24,9 +24,9 @@ class ExampleController extends Controller
         $isHuman = captcha_validate($code);
 
         if ($isHuman) {
-            // TODO: Captcha validation passed, perform protected  action
+            //
         } else {
-            // TODO: Captcha validation failed, show error message
+            //
         }
     }
 

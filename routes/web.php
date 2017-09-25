@@ -16,8 +16,6 @@ Route::get('/', "PostsController@index");
 Route::get('/show', "PostsController@show");
 
 Route::get('/post',"PostsController@store");
-/*Route::get('getEmail', 'PostsController@getEmail' )->name('get.emails');
-Route::get('/testEmail',"PostsController@getEmail");*/
 
 Route::get('/getEmail', 'DatatablesController@anyData');
 
