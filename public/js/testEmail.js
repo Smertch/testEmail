@@ -52,6 +52,10 @@ $(document).ready(function () {
                 data: 'homepage'
             },
             {
+                title: 'Message',
+                data: 'msg'
+            },
+            {
                 title: 'Ip',
                 data: 'ip'
             },
