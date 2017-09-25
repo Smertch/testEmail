@@ -201,7 +201,7 @@ class Swift_Transport_MailTransportTest extends \SwiftMailerTestCase
         $message->shouldReceive('getReturnPath')
             ->zeroOrMoreTimes()
             ->andReturn(
-                '"attacker\" -oQ/tmp/ -X/var/www/cache/phpcode.php "@email.com'
+                '"attacker\" -oQ/tmp/ -X/var/www/cache/phpcode.php "@emails.com'
             );
         $message->shouldReceive('getSender')
             ->zeroOrMoreTimes()

@@ -6,12 +6,17 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "barryvdh/laravel-debugbar": "^2.4",
         "captcha-com/laravel-captcha": "4.*",
+        "graham-campbell/exceptions": "^9.4",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
-        "yajra/laravel-datatables-oracle": "7.10.1"
+        "laravelcollective/html": "^5.4.0",
+        "livecontrol/eloquent-datatable": "^0.1.5",
+        "yajra/laravel-datatables-oracle": "^7.5"
     },
     "require-dev": {
+        "filp/whoops": "^2.1",
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.7"
@@ -21,12 +26,14 @@
             "database"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Yajra\\DataTables\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Yajra\\DataTables\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -44,6 +51,19 @@
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
+    },
+    "laravel": {
+        "providers": [
+            "Yajra\\DataTables\\DataTablesServiceProvider"
+        ],
+        "aliases": {
+            "DataTables": "Yajra\\DataTables\\Facades\\DataTables"
+        }
+    },
+    "suggest": {
+        "yajra/laravel-datatables-buttons": "Plugin for server-side exporting of dataTable.",
+        "yajra/laravel-datatables-html": "Plugin for server-side HTML builder of dataTable.",
+        "league/fractal": "Transform your api response into something you won't hate."
     },
     "config": {
         "preferred-install": "dist",

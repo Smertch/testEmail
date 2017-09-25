@@ -57,9 +57,9 @@ final class Author extends BaseTag implements Factory\StaticMethod
     }
 
     /**
-     * Returns the author's email.
+     * Returns the author's emails.
      *
-     * @return string The author's email.
+     * @return string The author's emails.
      */
     public function getEmail()
     {
